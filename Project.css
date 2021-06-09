@@ -1,0 +1,115 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 65px;
+  max-width: 100%;
+}
+
+header img {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.header0 {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+  font-size: 21px;
+  color: #000000;
+}
+
+.header1 {
+  font-size: 28px;
+  color: #000000;
+}
+
+.header2 {
+  display: flex;
+  align-items: center;
+  font-size: 21px;
+  color: #737373;
+}
+
+#headerpic {
+  height: 350px;
+  max-width: 100%;
+  display: block;
+}
+
+#name {
+  background-color: #02CD02;
+  display: flex;
+  align-items: center;
+  height: 115px;
+  max-width: 100%;
+}
+
+.column {
+  flex: 50%;
+  width: 100$;
+}
+
+#hospitalname {
+  margin-left: 40px;
+  font-size: 36px;
+  color: #FFFFFF;
+}
+
+#phone {
+  border-left: solid white;
+  padding-left: 40px;
+  font-size: 32px;
+  color: #FFFFFF;
+}
+
+#pic {
+  display: flex;
+  justify-content: space-between;
+}
+
+.album {
+  width: 33.33%;
+  margin-bottom: 60px;
+}
+
+.notice {
+  display: flex;
+  border: 5px solid gray;
+  position: relative;
+  flex-direction: column;
+  left: 15%;
+  right: -25%;
+  height: 300px;
+  width: 66.67%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.titlebar {
+  font-size: 24px;
+  color: #FFFFFF;
+  background-color: gray;
+  height: 40px;
+}
+
+.titlebar p {
+  position: relative;
+  top: -50%;
+}
+
+.noticeContent {
+  color: #000000;
+  font-size: 18px;
+  padding: 20px;
+  padding-bottom: 10px;
+}
+
+.noticeButton a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+  padding: 5px 20px;
+  font-size: 21px;
+  color: #FFFFFF;
+  background-color: gray;
+  height: 50px;
+}

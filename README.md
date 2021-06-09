@@ -1,1 +1,1 @@
-# Web & Mobile Technology class Group Project
+# Web & Mobile Technology Group Project

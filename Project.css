@@ -20,24 +20,24 @@ header img {
   display: flex;
   align-items: center;
   margin-right: auto;
-  font-size: 0.7em;
+  font-size: 0.8em;
   color: #000000;
 }
 
 .header1 {
-  font-size: 1.1em;
+  font-size: 1.2em;
   color: #000000;
 }
 
 .header2 {
   display: flex;
   align-items: center;
-  font-size: 0.7em;
+  font-size: 0.8em;
   color: #737373;
 }
 
 /* middle header */
-@media only screen and (min-device-width: 600px) {
+@media only screen and (min-device-width: 900px) {
 #headerpic {
   width: 100%;
   background-image: url('Images/Home Page/Header.png');
@@ -63,15 +63,15 @@ header img {
 }
 
 #hospitalname {
-  margin-left: 40px;
-  font-size: 1.3em;
+  margin-left: 0.8em;
+  font-size: 1.2em;
   color: #FFFFFF;
 }
 
 #phone {
   border-left: solid white 2px;
-  padding-left: 40px;
-  font-size: 1.3em;
+  padding-left: 0.6em;
+  font-size: 1.2em;
   color: #FFFFFF;
 }
 
@@ -95,14 +95,14 @@ header img {
   flex-direction: column;
   left: 16.7%;
   right: -25%;
-  height: 7em;
+  height: 7.5em;
   width: 66.67%;
   text-align: center;
   margin-bottom: 20px;
 }
 
 .titlebar {
-  font-size: 0.55em;
+  font-size: 0.6em;
   color: #FFFFFF;
   background-color: gray;
   height: 2em;
@@ -115,8 +115,8 @@ header img {
 
 .noticeContent {
   color: #000000;
-  font-size: 0.5em;
-  padding: 1em;
+  font-size: 0.55em;
+  padding: 0.5em;
   padding-bottom: 0.01em;
 }
 

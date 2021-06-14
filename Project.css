@@ -243,7 +243,7 @@ table, th, td {
 .tableheader {
   padding-top: 0.5em;
   width: 25%;
-  height: 2em;
+  height: 1em;
   background-color: gray;
   color: #FFFFFF;
   text-align: center;
@@ -259,8 +259,8 @@ table, th, td {
 .tablelink a:link, a:visited, a:hover, a:active {
   width: 37.5%;
   text-decoration: none;
-  padding: 0.2em 1em;
-  font-size: 1em;
+  padding: 0.1em 0.3em;
+  font-size: 0.8em;
   color: gray;
   height: 2em;
   background-color: transparent;
@@ -275,7 +275,7 @@ table, th, td {
   max-width: 100%;
   height: 2em;
   background-color: #02CD02;
-  font-size: 1em;
+  font-size: 0.8em;
   color: #FFFFFF;
   text-align: center;
 }

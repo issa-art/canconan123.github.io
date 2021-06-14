@@ -84,7 +84,7 @@ header img {
 
 .album {
   width: 33.33%;
-  margin-bottom: 60px;
+  margin-bottom: 0.3em;
 }
 
 /* 3 Notice */
@@ -98,7 +98,7 @@ header img {
   height: 7.5em;
   width: 66.67%;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 1em;
 }
 
 .titlebar {

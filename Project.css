@@ -113,3 +113,10 @@ header img {
   background-color: gray;
   height: 50px;
 }
+
+#map{
+    display: inline-block;
+    width: 100%;
+    height: 480px;
+    text-align: center;
+}

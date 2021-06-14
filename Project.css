@@ -1,3 +1,4 @@
+/* top part heading */
 header {
   display: flex;
   justify-content: space-between;
@@ -31,6 +32,7 @@ header img {
   color: #737373;
 }
 
+/* middle header */
 #headerpic {
   height: 350px;
   max-width: 100%;
@@ -63,9 +65,11 @@ header img {
   color: #FFFFFF;
 }
 
+/* 3 pictures */
 #pic {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 60px;
 }
 
 .album {
@@ -73,6 +77,7 @@ header img {
   margin-bottom: 60px;
 }
 
+/* 3 Notice */
 .notice {
   display: flex;
   border: 5px solid gray;
@@ -114,6 +119,7 @@ header img {
   height: 50px;
 }
 
+/* Interactive Map */
 #map {
   display: inline-block;
   width: 100%;
@@ -122,10 +128,12 @@ header img {
 }
 
 .address {
+  margin-top: 40px;
   font-size: 24px;
   color: #737373;
 }
 
+/* Schedule */
 .Scheduleimg {
   display: flex;
   flex-direction: column;

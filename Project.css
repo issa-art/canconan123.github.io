@@ -16,19 +16,19 @@ header img {
   display: flex;
   align-items: center;
   margin-right: auto;
-  font-size: 21px;
+  font-size: 1em;
   color: #000000;
 }
 
 .header1 {
-  font-size: 28px;
+  font-size: 1.1em;
   color: #000000;
 }
 
 .header2 {
   display: flex;
   align-items: center;
-  font-size: 21px;
+  font-size: 1em;
   color: #737373;
 }
 
@@ -54,14 +54,14 @@ header img {
 
 #hospitalname {
   margin-left: 40px;
-  font-size: 36px;
+  font-size: 1.4em;
   color: #FFFFFF;
 }
 
 #phone {
-  border-left: solid white;
+  border-left: solid white 2px;
   padding-left: 40px;
-  font-size: 32px;
+  font-size: 1.4em;
   color: #FFFFFF;
 }
 
@@ -92,7 +92,7 @@ header img {
 }
 
 .titlebar {
-  font-size: 24px;
+  font-size: 1em;
   color: #FFFFFF;
   background-color: gray;
   height: 40px;
@@ -105,7 +105,7 @@ header img {
 
 .noticeContent {
   color: #000000;
-  font-size: 18px;
+  font-size: 0.7em;
   padding: 20px;
   padding-bottom: 10px;
 }
@@ -113,7 +113,7 @@ header img {
 .noticeButton a:link, a:visited, a:hover, a:active {
   text-decoration: none;
   padding: 5px 20px;
-  font-size: 21px;
+  font-size: 0.8em;
   color: #FFFFFF;
   background-color: gray;
   height: 50px;

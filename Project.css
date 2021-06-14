@@ -1,3 +1,7 @@
+html {
+  font-size: 17px;
+}
+
 /* top part heading */
 header {
   display: flex;
@@ -16,7 +20,7 @@ header img {
   display: flex;
   align-items: center;
   margin-right: auto;
-  font-size: 1em;
+  font-size: 0.7em;
   color: #000000;
 }
 
@@ -28,16 +32,22 @@ header img {
 .header2 {
   display: flex;
   align-items: center;
-  font-size: 1em;
+  font-size: 0.7em;
   color: #737373;
 }
 
 /* middle header */
+@media only screen and (min-device-width: 600px) {
 #headerpic {
+  width: 100%;
+  background-image: url('Images/Home Page/Header.png');
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 350px;
-  max-width: 100%;
   display: block;
+ }
 }
+
 
 #name {
   background-color: #02CD02;
@@ -54,14 +64,14 @@ header img {
 
 #hospitalname {
   margin-left: 40px;
-  font-size: 1.4em;
+  font-size: 1.3em;
   color: #FFFFFF;
 }
 
 #phone {
   border-left: solid white 2px;
   padding-left: 40px;
-  font-size: 1.4em;
+  font-size: 1.3em;
   color: #FFFFFF;
 }
 
@@ -80,22 +90,22 @@ header img {
 /* 3 Notice */
 .notice {
   display: flex;
-  border: 5px solid gray;
+  border: 0.2em solid gray;
   position: relative;
   flex-direction: column;
   left: 16.7%;
   right: -25%;
-  height: 300px;
+  height: 7em;
   width: 66.67%;
   text-align: center;
   margin-bottom: 20px;
 }
 
 .titlebar {
-  font-size: 1em;
+  font-size: 0.55em;
   color: #FFFFFF;
   background-color: gray;
-  height: 40px;
+  height: 2em;
 }
 
 .titlebar p {
@@ -105,18 +115,18 @@ header img {
 
 .noticeContent {
   color: #000000;
-  font-size: 0.7em;
-  padding: 20px;
-  padding-bottom: 10px;
+  font-size: 0.5em;
+  padding: 1em;
+  padding-bottom: 0.01em;
 }
 
 .noticeButton a:link, a:visited, a:hover, a:active {
   text-decoration: none;
-  padding: 5px 20px;
-  font-size: 0.8em;
+  padding: 0.2em 1em;
+  font-size: 0.6em;
   color: #FFFFFF;
   background-color: gray;
-  height: 50px;
+  height: 2em;
 }
 
 /* Interactive Map */

@@ -184,6 +184,9 @@ header img {
 }
 
 .titlebar {
+  display: flex;
+  align-content: center;
+  justify-content: center;
   font-size: 0.6em;
   color: #FFFFFF;
   background-color: gray;
@@ -242,6 +245,7 @@ header img {
 
 /* Schedule */
 .Scheduleimg {
+  margin-top: 2em;
   display: flex;
   flex-direction: column;
   align-items: center;

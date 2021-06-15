@@ -11,8 +11,8 @@ header {
 }
 
 header img {
-  max-width: 2.1em;
-  max-height: 2.1em;
+  width: 2em;
+  height: 2em;
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 10px;

@@ -34,7 +34,7 @@ header img {
 .header2 {
   display: flex;
   align-items: center;
-  font-size: 0.8em;
+  font-size: 0.6em;
   color: #737373;
 }
 
@@ -252,7 +252,7 @@ table, th, td {
   color: #FFFFFF;
   text-align: center;
   font-size: 2.2em;
-  line-height: 65%;
+  line-height: 50%;
 }
 
 .tablehira {
@@ -268,6 +268,18 @@ table, th, td {
   color: gray;
   height: 2em;
   background-color: transparent;
+}
+
+.ENheader {
+  font-size: 0.5em;
+}
+
+.ENheader2 {
+  font-size: 0.7em;
+}
+
+.ENsubheader {
+  font-size: 0.9em;
 }
 
 /* Bottom Heading --> */

@@ -33,6 +33,8 @@ $('#lang-switch').change(function () { // put onchange event when user select op
         case 'jp':
             $('[lang]').hide();
             $('[lang="jp"]').show();
+            $("#JPN_calendar").attr("src","Images/Home Page/JPN Calendar.png");
+            $("#JPN_schedule").attr("src","Images/Home Page/JPN Schedule.png");
         break;
         default:
             $('[lang]').hide();

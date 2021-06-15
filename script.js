@@ -18,13 +18,17 @@ $(document).ready(function() {
 
 });
 
+
 $('[lang]').hide(); // hide all lang attributes on start.
-$('[lang="jp"]').show(); // show just Japanese text
+$('[lang="jp"]').show(); // show just JP text
 $('#lang-switch').change(function () { // put onchange event when user select option from select
     var lang = $(this).val(); // decide which language to display using switch case.
+    switch (lang) {
         case 'en':
             $('[lang]').hide();
             $('[lang="en"]').show();
+            $("#JPN_calendar").attr("src","Images/Home Page/EN Calendar.png");
+            $("#JPN_schedule").attr("src","Images/Home Page/EN Schedule.png");
         break;
         case 'jp':
             $('[lang]').hide();

@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>Test</title>
     <link rel="stylesheet" href="Project.css"></link>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" defer></script>
     <script src="script.js" defer></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
@@ -14,16 +14,25 @@
     <header>
       <img src="Images/Home Page/Logo.png" alt="">
       <p class="header0">むさしの耳鼻科 <span class="header1"><b>矢野医院</b></span></p>
-      <p class="header2">EN</p>
+      <p class="header2">EN/JP</p><form>
+    <label for="lang-switch">
+        <span lang="jp">JP</span>
+        <span lang="en">EN</span>
+    </label>
+    <select id="lang-switch">
+        <option value="en">English</option>
+        <option value="jp" selected>JP</option>
+    </select>
+</form>
 <!-- Submenu heading -->
     <div class="dropdown" style="float:right;">
      <button class="dropbtn">&#x2630;</button>
      <div class="dropdown-content">
-       <a href="#">&#x25B7; 病院紹介</a>
-       <a href="#">&#x25B7; 利用可能な治療</a>
-       <a href="#">&#x25B7; 初診の方へ</a>
+       <a href="#">&#x25B7; <span lang="jp">病院紹介</span><span lang="en">Hospital Profile</span></a>
+       <a href="#">&#x25B7; <span lang="jp">利用可能な治療</span><span lang="en">Available Treatment</span></a>
+       <a href="#">&#x25B7; <span lang="jp">初診の方へ</span><span lang="en">First Time Visit</span></a>
        <a href="#">&#x25B7; FAQ</a>
-       <a href="#">&#x25B7; お知らせ</a>
+       <a href="#">&#x25B7; <span lang="jp">お知らせ</span><span lang="en">Announcement</span></a>
      </div>
      </div>
     </header>
@@ -45,70 +54,86 @@
 <!-- First Notice -->
     <div class="notice">
       <div class="titlebar">
-        <p>コロナウイルスの安全対策</p>
+        <p><span lang="jp">コロナウイルスの安全対策</span>
+		       <span lang="en">Coronavirus Safety Precaution</span></p>
       </div>
       <div class="noticeContent">
-        <p>パンデミックが続いているため、 むさしの耳鼻科はコロナウイルスに対する最高レ
+        <p><span lang="jp">パンデミックが続いているため、 むさしの耳鼻科はコロナウイルスに対する最高レ
           ベルの安全対策を維持することが重要です。 私たちのコミュニティの安全を確保する
           ために、私たちが実施しているすべての安全対策を注意深く確認してください。詳しく
-          はこちらへ</p>
+          はこちらへ</span>
+		       <span lang="en">Due to the ongoing pandemic, It is crucial for Musashino ENT to maintain
+         the highest level of safety precautions for the coronavirus. To ensure the safety of
+         our community, please carefully review all the safety measures we have in place.</span></p>
       </div>
       <div class="noticeButton">
-        <a href="">▷ 詳しくはこちらへ</a>
+        <a href=""><span lang="jp">▷ 詳しくはこちらへ</span>
+		      <span lang="en">Click here for more</span></a>
       </div>
     </div>
 
 <!-- 2nd Notice -->
     <div class="notice">
       <div class="titlebar">
-        <p>コロナウイルス治療</p>
+        <p><span lang="jp">コロナウイルス治療</span>
+		       <span lang="en">Coronavirus Treatment</span></p>
       </div>
       <div class="noticeContent">
-        <p>コロナウイルスのパンデミックが続き、私たちのコミュニティが再開し始めると、コ
+        <p><span lang="jp">コロナウイルスのパンデミックが続き、私たちのコミュニティが再開し始めると、コ
           ロナウイルスに対する健康に気を配ることが重要になります。  むさしの耳鼻科では
           、コロナウイルスワクチン接種とコロナウイルス治療のためのPCR検査の両方を提供し
-          ています。詳しくはこちらへ</p>
+          ています。詳しくはこちらへ</span>
+		       <span lang="en">As the coronavirus pandemic continues and our communities begin to reopen,
+          it is important for us to take care of our health against the coronavirus. Here in Musashino
+          ENT, we offer both coronavirus vaccination and PCR test for the coronavirus treatment.</span></p>
       </div>
       <div class="noticeButton">
-        <a href="">▷ 詳しくはこちらへ</a>
+        <a href=""><span lang="jp">▷ 詳しくはこちらへ</span>
+		<span lang="en">Click here for more</span></a>
       </div>
     </div>
 
 <!-- 3rd Notice -->
     <div class="notice">
       <div class="titlebar">
-        <p>お知らせ</p>
+        <p><span lang="jp">コロナウイルス治療</span>
+		       <span lang="en">Coronavirus Treatment</span></p>
       </div>
       <div class="noticeContent">
-        <p><b>2021/06/08</b> 熱があり、受診希望の方は、あらかじめお電話ください。<br>
-           <b>2021/04/20</b> 接種券が届いた方を対象に新型コロナウイルスワクチン接種の電話予約を始めています。</p>
+        <p><b>2021/06/08</b> <span lang="jp">熱があり、受診希望の方は、あらかじめお電話ください。</span>
+                             <span lang="en">If you have a fever and would like to see a doctor, please call us in advance.</span><br>
+           <b>2021/04/20</b> <span lang="jp">接種券が届いた方を対象に新型コロナウイルスワクチン接種の電話予約を始めています。</span>
+		                         <span lang="en">We have started telephone reservations for the new coronavirus vaccinations, for those who have received the vaccination ticket.</span></p>
       </div>
       <div class="noticeButton">
-        <a href="">▷ 詳しくはこちらへ</a>
+        <a href=""><span lang="jp">▷ 詳しくはこちらへ</span>
+		       <span lang="en">Click here for more</span></a>
       </div>
     </div>
 
 <!-- Interactive Map -->
     <div id="map">
-      <p class="address">〒180-0013<br>
-        東京都武蔵野市西久保３丁目７−１１</p>
+      <p class="address"><span lang="jp">〒180-0013<br>
+        東京都武蔵野市西久保３丁目７−１１</span>
+		<span lang="en">〒180-00133-7-11<br> Nishikubo, Musashino-shi, Tokyo</span>
+		</p>
       <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d4518.377372899917!2d139.5605486526313!3d35.712768856095884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e3!4m0!4m5!1s0x6018efa9c7155385%3A0x661cd47409a22d43!2s3-ch%C5%8Dme-7-11%20Nishikubo%2C%20Musashino%2C%20Tokyo%20180-0013!3m2!1d35.7128247!2d139.5620004!5e0!3m2!1sen!2sjp!4v1623508942823!5m2!1sen!2sjp" width="100%" height="480px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </div>
 
 <!-- Schedule -->
     <div class="Scheduleimg">
-      <img src="Images/Home Page/JPN Calendar.png" alt="" style="max-width:100%;height:auto;">
-      <img src="Images/Home Page/JPN Schedule.png" alt="" style="max-width:100%;height:auto;">
+       <img id="JPN_calendar" src="Images/Home Page/JPN Calendar.png" alt="" style="max-width:100%;height:auto;">
+       <img id="JPN_schedule" src="Images/Home Page/JPN Schedule.png" alt="" style="max-width:100%;height:auto;">
     </div>
 
 <!-- Link table -->
      <table id="linktable" style="width: 100%">
       <tr>
-        <th class="tableheader" rowspan="2">病院<br><span class="tablehira">について</span></th>
-        <td class="tablelink"><a href="">▷ 病院紹介</a></td>
-        <td class="tablelink"><a href="">▷ 初診の方へ</a></td>
+        <th class="tableheader" rowspan="2"><span lang="jp">病院</span><span lang="en">Hospital</span><br><span class="tablehira"><span lang="jp">について</span><span lang="en">information</span></span></th>
+        <td class="tablelink"><a href="">▷ <span lang="jp">病院紹介</span><span lang="en">Hospital Profile</span></a></td>
+        <td class="tablelink"><a href="">▷ <span lang="jp">初診の方へ</span><span lang="en">First Time Visit</span></a></td>
       <tr>
-        <td class="tablelink"><a href="">▷ 利用可能な治療</a></td>
+        <td class="tablelink"><a href="">▷ <span lang="jp">利用可能な治療</span><span lang="en">Available Treatment</span></a></td>
         <td class="tablelink"><a href="">▷ FAQ</a></td>
      </table>
 

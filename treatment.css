@@ -292,10 +292,10 @@ header img {
 .extra2 {
   display: flex;
   position: relative;
-  left: 7.5%;
+  left: 7%;
   max-width: 85%;
   font-size: 0.8em;
-  font-weight: none;
+  font-weight: normal;
  }
 }
 

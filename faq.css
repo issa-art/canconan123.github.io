@@ -187,9 +187,10 @@ header img {
   border: none;
   text-align: left;
   outline: none;
-  font-size: .6em;
+  font-size: .8em;
   border-top: 3px solid gray;
 }
+
 
 
 .colcontent {
@@ -198,6 +199,7 @@ header img {
   overflow: hidden;
   background-color: white;
   font-size: .55em;
+  margin-top: -1.3em;
 }
 
 .colcontent img{
@@ -226,4 +228,12 @@ header img {
   font-size: 0.8em;
   color: #FFFFFF;
   text-align: center;
+}
+@media only screen and (max-device-width: 900px) {
+	.infobox {
+		width: 80%;
+	}
+	.collapsible img{
+		width: 1.5em;
+}
 }

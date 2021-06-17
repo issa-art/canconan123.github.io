@@ -186,6 +186,7 @@ caption{
 	background-color: gray;
 	color: #FFFFFF;
 	border-top: 9px solid gray;
+	font-size: 1.6em;
 }
 
 td, th {
@@ -202,12 +203,6 @@ td, th {
 th {
 	border-spacing: 1em;
 }
-@media only screen and (max-device-width: 900px) {
-	table {
-		width: 80%;
-	}
-}
-
 /* Bottom Heading --> */
 #bottomHeading {
   margin-top: 3em;
@@ -221,4 +216,14 @@ th {
   color: #FFFFFF;
   text-align: center;
 }
+
+@media only screen and (max-device-width: 900px) {
+table {
+		width: 80%;
+	}
+#bottomHeading {
+		margin-top: 18em;
+	}
+}
+
 

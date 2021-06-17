@@ -216,6 +216,7 @@ header img {
   margin-bottom: -2.9em;
 }
 
+
 /* Bottom Heading --> */
 #bottomHeading {
   margin-top: 3em;
@@ -229,11 +230,15 @@ header img {
   color: #FFFFFF;
   text-align: center;
 }
-@media only screen and (max-device-width: 900px) {
-	.infobox {
-		width: 80%;
+@media only screen and (max-device-width: 1900px) {
+.infobox {
+	width: 80%;
 	}
-	.collapsible img{
-		width: 1.5em;
+.collapsible img{
+	width: 1.5em;
 }
+#bottomHeading {
+	margin-top: 22em;
+}
+
 }

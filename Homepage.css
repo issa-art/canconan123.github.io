@@ -178,6 +178,7 @@ header img {
 }
 
 /* 3 Notice */
+@media only screen and (min-device-width: 1022px) {
 .notice {
   display: flex;
   border: 0.2em solid gray;
@@ -189,6 +190,22 @@ header img {
   width: 70%;
   text-align: center;
   margin-bottom: 1em;
+ }
+}
+
+@media only screen and (max-device-width: 1021px) {
+  .notice {
+    display: flex;
+    border: 0.2em solid gray;
+    position: relative;
+    flex-direction: column;
+    left: 10%;
+    right: -25%;
+    height: 8em;
+    width: 80%;
+    text-align: center;
+    margin-bottom: 1em;
+   }
 }
 
 .titlebar {

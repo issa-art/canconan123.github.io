@@ -237,6 +237,21 @@ header img {
   color: #FFFFFF;
 }
 
+/* 3rd Notice box announcement */
+.Announcement1 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  position: relative;
+  text-align: left;
+  margin-left: 1%;
+}
+
+.announcementContent {
+  margin-left: 1%;
+}
+
+
 /* Interactive Map */
 #map {
   display: inline-block;

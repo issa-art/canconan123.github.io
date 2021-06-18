@@ -331,14 +331,13 @@ table, th, td {
 
 @media only screen and (min-device-width: 900px) {
 .tableheader {
-  margin-top: 0.1em;
   width: 25%;
   height: 1em;
   background-color: gray;
   color: #FFFFFF;
   text-align: center;
   font-size: 1.5em;
-  line-height: 50%;
+  line-height: 70%;
  }
 
 #linktable2 {
@@ -356,6 +355,7 @@ table, th, td {
 .tablehira {
   font-weight: normal;
   font-size: 0.5em;
+  line-height: 30%;
 }
 
 .tablelink a:link, a:visited, a:hover, a:active {
@@ -370,10 +370,12 @@ table, th, td {
 
 .ENheader {
   font-size: 0.5em;
+  line-height: 50%;
 }
 
 .ENheader2 {
-  font-size: 0.7em;
+  font-size: 0.9em;
+  line-height: 150%;
 }
 
 .ENsubheader {

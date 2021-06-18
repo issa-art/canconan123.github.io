@@ -337,7 +337,7 @@ table, th, td {
   color: #FFFFFF;
   text-align: center;
   font-size: 1.5em;
-  line-height: 70%;
+  line-height: 50%;
  }
 
 #linktable2 {
@@ -370,7 +370,7 @@ table, th, td {
 
 .ENheader {
   font-size: 0.5em;
-  line-height: 50%;
+  line-height: 0;
 }
 
 .ENheader2 {

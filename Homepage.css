@@ -1,5 +1,6 @@
 html {
   font-size: 17px;
+  font-family: sans-serif;
 }
 
 /* top part heading */
@@ -201,7 +202,7 @@ header img {
     flex-direction: column;
     left: 10%;
     right: -25%;
-    height: 8em;
+    height: 8.2em;
     width: 80%;
     text-align: center;
     margin-bottom: 1em;
@@ -284,7 +285,7 @@ header img {
 
 @media only screen and (min-device-width: 600px) {
   #announcementButton {
-    margin-top: 1em;
+    margin-top: 0.05em;
   }
 }
 
@@ -296,10 +297,20 @@ header img {
   text-align: center;
 }
 
+@media only screen and (min-device-width: 562px) {
 .address {
   margin-top: 40px;
   font-size: 24px;
   color: #737373;
+ }
+}
+
+@media only screen and (max-device-width: 561px) {
+  .address {
+    margin-top: 40px;
+    font-size: 0.8em;
+    color: #737373;
+  }
 }
 
 /* Schedule */
@@ -329,10 +340,15 @@ table, th, td {
   font-size: 1.5em;
   line-height: 50%;
  }
+
+#linktable2 {
+  display: none;
+}
+
 }
 
 @media only screen and (max-device-width: 900px) {
-  .tableheader {
+  #linktable {
     display: none;
   }
 }

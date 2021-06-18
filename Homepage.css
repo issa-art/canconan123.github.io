@@ -254,6 +254,20 @@ header img {
   color: #FFFFFF;
 }
 
+/* 1st Notice box FAQ */
+@media only screen and (max-device-width: 498px) {
+  #faqButton {
+    margin-top: -0.5em;
+  }
+}
+
+/* 2nd Notice box treatment */
+@media only screen and (max-device-width: 561px) {
+  #treatmentButton {
+    margin-top: -0.5em;
+  }
+}
+
 /* 3rd Notice box announcement */
 .Announcement1 {
   display: flex;
@@ -268,6 +282,11 @@ header img {
   margin-left: 1%;
 }
 
+@media only screen and (min-device-width: 600px) {
+  #announcementButton {
+    margin-top: 1em;
+  }
+}
 
 /* Interactive Map */
 #map {

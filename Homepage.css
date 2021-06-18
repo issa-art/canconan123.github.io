@@ -308,7 +308,7 @@ header img {
 @media only screen and (max-device-width: 561px) {
   .address {
     margin-top: 40px;
-    font-size: 0.8em;
+    font-size: 0.9em;
     color: #737373;
   }
 }

@@ -173,7 +173,7 @@ header img {
   display: flex;
   border: 4px solid gray;
   flex-direction: column;
-  width: 66.67%;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
 }
